@@ -1,0 +1,7 @@
+Este projeto consiste em uma página web com um design responsivo,
+construído com HTML, CSS e a biblioteca de fontes do Google Fonts.
+ A página possui um cabeçalho com menu de navegação, título e texto principal
+com animações de transição suave e uma imagem.
+   O código CSS foi desenvolvido utilizando boas práticas, como a separação de
+responsabilidades, organização e utilização de classes e seletores semânticos, 
+bem como a utilização de técnicas para deixar o layout mais atraente e legível.

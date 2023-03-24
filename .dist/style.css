@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #C3BCC6 ;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    background-color: #271E2B;
+}
+
+.cabecalho-barra {
+    margin-left: 800px;
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-texto {
+    font-family: 'Roboto Slab', serif;
+    color: #C3BCC6;
+    font-weight: 550;
+}
+
+.conteudo-titulo{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    font: 550 70px/1 'Roboto Slab', serif;
+    color: #271E2B;
+}
+
+.conteudo-texto, .conteudo-segundo-texto {
+    position: absolute;
+    left: 51%;
+    font: 350 40px/1 'Roboto Slab', serif;
+    color: #271E2B;
+}
+
+.conteudo-texto {
+    top: 40%;
+}
+
+.conteudo-segundo-texto {
+    top: 50%;
+}
+
+.conteudo-principal {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 20%;
+    bottom: 0%;
+    width: 720px;
+    height: 430px;
+    background: #D9D9D9;
+    border-radius: 0 40px 40px 0;
+    opacity: 0;
+    animation: fadeIn 2s forwards 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.conteudo-img {
+    position: absolute;
+    height: 330px;
+    left: 65%;
+    top: 20%;
+}
+
+.conteudo-botao {
+    position: absolute;
+    background-color: #271E2B;
+    border: #271E2B;
+    width: 150px;
+    height: 60px;
+    left: 72.5%;
+    top: 80%;
+    border-radius: 35%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.conteudo-botao:hover {
+    background-color: #59405c;
+}
+
+.conteudo-botao-texto {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-weight: 550;
+    font-size: 25px;
+}
+
