@@ -5,3 +5,26 @@ com animações de transição suave e uma imagem.
    O código CSS foi desenvolvido utilizando boas práticas, como a separação de
 responsabilidades, organização e utilização de classes e seletores semânticos, 
 bem como a utilização de técnicas para deixar o layout mais atraente e legível.
+
+------- Como clonar o projeto na sua maquina -------
+
+-> Sertifique-se de ter instalado e configurado o Git Bash na sua maquina
+Caso nao tenha feito ainda, segue link de tutorial: https://www.youtube.com/watch?v=UBAX-13g8OM&t=1224s
+
+-> Crie uma pasta no seu diretorio C: de nome Porjetos
+
+-> No git hub dentro do projeto portifio clique em "Code", na janela que será aberta clique no icone de copiar
+
+-> De volta na pasta Projetos da sua maquina clique com o botao direto selegione "Git Bash Here", o terminaldo git sera aberto.
+
+-> Digite o comendo "git clone + o link que foi copiado anteriomente", (git clone https://www.youtube.com/watch?v=UBAX-13g8OM&t=1224s)
+
+-> PRONTO O PROJETO FOI CLONADO PARA SUA MAQUINA ;)
+
+-------- Como abrir o site no seu navegador --------
+-> Para abrir o projeto no vs code entre no diretorio c:Projetos/portifolio/ clique com o botao direto e cllique em "Abrir com Code"
+
+-> No vscode clique no icone de extencoes procure por "Live Server" e insatle
+
+-> ainda no vscode va em dist/index.html clique com o botao direto e clique em Open Whith File Server
+
